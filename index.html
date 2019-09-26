@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/test.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <title>My First Website</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">My First Website</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    </header>
+    <!-- Start of Header -->
+    <div id="landing-image">
+        <div id="landing-text">
+            <h1 style="margin-top: 0;text-align: center; color: #fff;">Web Development & Web Designing</h1>
+            <p style="padding: 10px; background: rgba(255, 255, 255, .6); border-radius: 10px;"><span class="web">Web development</span> is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network).
+                <br>
+                <br><span class="web">Web design</span> encompasses many different skills and disciplines in the production and maintenance of websites.</p>
+            <p style="text-align: center;">
+                <button id="modalBtn" class="button">Read More</button>
+            </p>
+        </div>
+    </div>
+
+    <!-- Start Of Read More -->
+
+    <div id="simpleModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+          <span class="closeBtn">&times;</span>
+          <h2>Read More</h2>
+      </div>
+      <div class="modal-body">
+        <section id="development">
+            <h3>Web Development</h3>
+            <p style="margin-top: 0; margin-bottom:0;"><u>Web development broadly refers to the tasks associated with developing websites for hosting via intranet or internet.</u> The web development process includes web design, web content development, client-side/server-side scripting and network security configuration, among other tasks.Web development is also known as website development.</p>
+            <p style="margin-top: 0;">Web development is the coding or programming that enables website functionality, per the owner's requirements. It mainly deals with the non-design aspect of building websites, which includes coding and writing markup. Web development ranges from creating plain text pages to complex web-based applications, social network applications and electronic business applications.</p>
+        </section>
+        <section id="design">
+            <h3>Web Design</h3>
+            <p style="margin-top: 0; margin-bottom:0;"><u>Web design is a Web development process for creating a website that focuses on aesthetic factors like layout, user interface and other visual imagery in order to make the website more visually appealing and easy to use.</u> Web design makes use of various programs and tools in order to achieve the intended look, such as Dreamweaver, Photoshop and many others.</p>
+            <p style="margin-top: 0;">In order to create a winning design, Web designers need to think about their audience, the purpose of the website and the visual appeal of the design. The result is based on the combination of these elements. Hand coding can be taxing for some designers so some opt to use programs like Adobe Dreamweaver.</p>
+        </section>
+      </div>
+      <div class="modal-footer">
+        <h3>Copyright &copy; 2018</h3>
+      </div>
+    </div>
+  </div>
+
+    <!-- End Of Read More -->
+    <!-- End of Header -->
+    <div id="middle">
+        <section class="home-one-third">
+            <div class="web-img">
+                <a href="#html-content">
+		<img src="img/logo_html.png" alt="Html 5" class="home-img">
+	</a>
+            </div>
+            <div class="web-text">
+                <a href="">
+                    <h2 style="text-align: center; margin-top: 10px; margin-bottom: 0; color: #e8491d; border-bottom: 2px solid #fff; padding-bottom: 10px;">HTML 5</h2>
+                </a>
+                <p>Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally.</p>
+            </div>
+        </section>
+        <section class="home-one-third">
+            <div class="web-img">
+                <a href="#css-content">
+		<img src="img/logo_css.png" alt="Css 3" class="home-img">
+	</a>
+            </div>
+            <div class="web-text">
+                <a href="">
+                    <h2 style="text-align: center; margin-top: 10px; margin-bottom: 0; color: #e8491d; border-bottom: 2px solid #fff; padding-bottom: 10px;">CSS 3</h2>
+                </a>
+                <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable.</p>
+            </div>
+        </section>
+        <section class="home-one-third">
+            <div class="web-img">
+                <a href="">
+		<img src="img/logo_js.png" alt="Javascript" class="home-img">
+	</a>
+            </div>
+            <div class="web-text">
+                <a href="">
+                    <h2 style="text-align: center; margin-top: 10px; margin-bottom: 0; color: #e8491d; border-bottom: 2px solid #fff;padding-bottom: 10px;">Javascript</h2>
+                </a>
+                <p>JavaScript, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm. Alongside HTML and CSS, JavaScript is one of the three core technologies of the World Wide Web. JavaScript enables interactive web pages and thus is an essential part of web applications. Web browsers receive HTML documents from a web server or from local.</p>
+            </div>
+        </section>
+    </div>
+    <div class="clear-fix"></div>
+    <!-- Start of Footer -->
+    <footer>
+        <div id="footer-main">
+            <div id="social-media" class="f-one-third">
+                <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://plus.google.com"><i class="fab fa-google-plus-g"></i></a>
+            </div>
+            <div id="copyright" class="f-one-third">
+                <p>My Website, Copyright &copy; 2018</p>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+    <script  type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

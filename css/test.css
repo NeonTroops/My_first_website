@@ -1,0 +1,628 @@
+body {
+	padding: 0;
+	margin:0;
+	font-family: Helvetica, sans-serif;
+	background: #e3e3e3;
+	font-size:17px;
+  	line-height:1.6;
+}
+
+p{
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	margin:0;
+}
+
+h1 {
+	margin: 10px 0 0 10px;
+}
+
+input, textarea {
+	padding: 10px;
+	margin: 10px 0 10px 0;
+}
+
+input[type="submit"] {
+	background-color: #e8491d;
+	border: 0;
+	padding: 10px;
+	color: #fff;
+}
+
+span {
+	color: #000;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+span.web:after {
+	content: " :";
+}
+
+table#info-table {
+	background: #000;
+	border: #000 solid 2px;
+	width: 70%;
+	height: 70vh;
+	margin: auto;
+}
+
+table.inside-adout th {
+	background: #2e2e2e;
+	color: #fff;
+	text-align: center;
+}
+
+table.inside-adout td {
+	background: orange;
+	text-align: center;
+}
+
+/* Start of Home Page */
+div#landing-image {
+	min-height: 400px;
+	background: url('../img/showcase.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin: 50px 0 0 0;
+}
+
+div#landing-text {
+	width: 50%;
+	margin: auto;
+	padding-top: 7%;
+	text-align: justify;
+}
+
+#middle {
+	width: 100%;
+	margin: 0 auto;
+}
+
+img.home-img {
+	display: block;
+	max-width: 100%;
+	height: 250px;
+	width: auto;
+	margin: auto;
+}
+
+.home-one-third {
+	width: 29%;
+	float: left;
+	margin: 0 2%;
+	padding-top: 10px;
+	background: #2e2e2e;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.web-text p {
+	color: #fff;
+	text-align: justify;
+	text-indent: 40px;
+}
+
+.web-text {
+	display: none;
+}
+
+.home-one-third:hover .web-img {
+	display: none !important;
+}
+
+.home-one-third:hover .web-text {
+	display: block !important;
+}
+
+.fix {
+	margin: 60px 0px 0px 10px;
+}
+
+
+/* End of Home Page */
+
+/* Start of Footer Part */
+footer {
+	background: #e8491d;
+	color: #fff;
+	padding: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.f-one-third {
+	width: 29%;
+	display: inline-block;
+}
+
+#copyright {
+	width: 70%;
+}
+
+#copyright p {
+	margin: 0;
+	padding-left: 19%;
+}
+
+#social-media {
+	font-size: 1.4rem;
+}
+
+#social-media i {
+	margin: 0 10px;
+	color: #000;
+}
+
+#social-media i:hover {
+	border-bottom: 2px solid #fff;
+	display: inline;
+}
+
+/* End of Footer Part */
+
+button {
+	border: 0;
+	padding: 10px;
+	border-radius: 10px;
+	background: #2e2e2e;
+}
+
+button a:hover {
+	font-weight: bold;
+	color: #e8491d;
+}
+
+/* Start of Portfolio Part */
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+img.image-gallery, #about-img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	border: 2px solid #fff;
+	border-radius: 10px;
+}
+
+.one-third {
+	width: 29%;
+	float: left;
+	margin: 2%;
+	border-radius: 10px;
+}
+
+.one-third:hover {
+	box-shadow: 8px 8px 14px #2e2e2e;
+	transition: box-shadow 300ms;
+}
+
+/* End Of Portfolio Part */
+
+#about-img {
+	width: 50%;
+	margin: 10px auto;
+	border-radius: 50%;
+	border: 5px solid #fff;
+}
+
+.clicked {
+	background: orange;
+	border-radius: 10px;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+#main, #about-main {
+	background: #2e2e2e;
+	margin: 10px 10% 10px 10%;
+	color: #fff;
+	padding: 10px;
+	display: flex;
+}
+
+#contact {
+	padding: 0 10% 0 11%;
+	border-right: 2px solid #fff;
+}
+
+#address {
+	padding: 0 0 0 2%;
+}
+
+#about {
+	margin: 50px 0 0 0;
+}
+
+#about-us {
+	background: #2e2e2e;
+	color: #fff;
+	width: 500%;
+	border-right: 2px solid #fff;
+}
+
+#about-us li {
+	padding: 10px 10px 0 10px;
+	list-style: none;
+	text-align: justify;
+}
+
+#info, #portfolio-heading {
+	background: #e8491d;
+	padding: 10px 0;
+	margin: 0;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 1px #2e2e2e;
+	margin-bottom: 10px;
+}
+
+#portfolio-heading {
+	margin: 50px 0 0 0;
+}
+
+#about-main {
+	background: #2e2e2e;
+}
+
+div#About-sidebar {
+	padding-left: 1%;
+}
+
+/* Start Of Header */
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0 100px;
+	background: #262626;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+header .logo {
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	float: left;
+	font-weight: bold;
+}
+
+header nav {
+	float: right;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+header nav ul li {
+	list-style: none;
+}
+
+header nav ul li a {
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+	color: #fff;
+	background: #2196f3;
+}
+
+.menu-toggle {
+	color: #fff;
+	float: right;
+	line-height: 50px;
+	font-size: 24px;
+	cursor: pointer;
+	display: none;
+}
+
+/* End Of Header */
+
+/* Start of Read More */
+
+.button{
+  background:#2e2e2e;
+  padding:1em 2em;
+  color:#fff;
+  border:0;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover{
+  color:#e8491d;
+}
+
+.modal{
+  display: none;
+  position: fixed;
+  z-index:1;
+  left: 0;
+  top:0;
+  height: 100%;
+  width:100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content{
+  background-color:#f4f4f4;
+  margin: 1% auto;
+  width:70%;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+  animation-name: modalopen;
+  animation-duration:500ms;
+}
+
+.modal-header h2, .modal-footer h3{
+  margin:0;
+}
+
+.modal-header{
+  background:coral;
+  padding:15px;
+  color:#fff;
+}
+
+.modal-body{
+  padding:10px 20px;
+}
+
+.modal-footer{
+  background:coral;
+  padding:10px;
+  color:#fff;
+  text-align: center;
+}
+
+.closeBtn{
+  color:#ccc;
+  float: right;
+  font-size:30px;
+  color:#fff;
+}
+
+.closeBtn:hover,.closeBtn:focus{
+  color:#000;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.modal-body h3 {
+	margin-bottom: 0;
+}
+
+/* End of Read More */
+
+@media screen and (max-width: 500px) {
+	body {
+		width: 100%;
+	}
+
+	#main {
+		display: block;
+	}
+
+	#contact, #about-us {
+		border-right: 0;
+		border-bottom: 2px solid #fff;
+	}
+}
+
+
+/* Media-Query For Portfolio Part & Home Page */
+
+@media screen and (max-width: 768px) {
+	.one-third, .home-one-third {
+		width: 48%;
+		margin: 1%;
+	}
+
+	img.home-img {
+		height: 100%;
+	}
+
+	div#landing-text {
+		width: 100%;
+		margin: 0;
+	}
+
+	/* Media-Query for Responsive Nav Bar */
+	/* START */
+
+	header {
+		padding: 0 20px;
+	}
+
+	.menu-toggle {
+		display: block;
+	}
+
+	header nav {
+		position: absolute;
+		width: 100%;
+		height: calc(100vh - 50px);
+		background: #333;
+		top: 50px;
+		left: -100%;
+		transition: 0.5s;
+	}
+
+	header nav.responsive {
+		left: 0;
+	}
+
+	header nav ul {
+		display: block;
+		text-align: center;
+	}
+
+	header nav ul li a {
+		border-bottom: 1px solid rgba(0,0,0,.2);
+	}
+
+	/* Media-Query for Responsive Nav Bar */
+	/* END */
+
+	#about-us li {
+		text-align: inherit;
+	}
+
+	#copyright p {
+		padding: 0;
+		text-align: right;
+		width: 100%;
+	}
+
+	#social-media {
+		font-size: 1rem;
+	}
+
+	#social-media i {
+		margin: 0 5px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.one-third, .home-one-third {
+		width: 100%;
+		margin: 1%;
+	}
+
+	h1{
+		font-size: 2em;
+	}
+
+	#landing-text h1 {
+		font-size: 1.5em;
+	}
+
+	#landing-text p, h1#portfolio-heading {
+		font-size: 1em;
+	}
+
+	footer p, .web-text p, .nav li a {
+		font-size: 0.9em;
+	}
+
+	#main {
+		margin: 0;
+		display: block;
+	}
+
+	#contact {
+		padding: 0 0 0 11%;
+	}
+
+	img.home-img {
+		height: 25vh;
+	}
+
+	.home-one-third {
+		height: auto;
+	}
+
+	#about-us {
+		width: 100%;
+		margin: 0;
+		padding: 0 0 5% 0;
+	}
+
+	#about-main {
+		display: block;
+		margin: 0;
+	}
+
+	table#info-table {
+		width: 100%;
+	}
+
+	div#landing-image {
+		padding-top: 15%;
+	}
+
+	#social-media, #copyright {
+		width: 100%;
+	}
+
+	#copyright p {
+		text-align: center;
+	}
+
+	.modal-content{
+		width: 100%;
+		margin: auto;
+	}
+
+	.modal-body p{
+		font-size: 15px;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+
+	#landing-text h1 {
+		font-size: 1.2em;
+	}
+
+	#landing-text p {
+		font-size: 0.9em;
+	}
+
+	#contact {
+		padding: 0;
+	}
+
+	input, textarea {
+		padding: 1.7px;
+	}
+
+	table.inside-adout th {
+		padding-right: 0;
+	}
+
+	header .logo {
+		font-size: 1.3rem;
+	}
+
+	#about h1 {
+		font-size: 1.5rem;
+	}
+
+	.fix {
+		font-size: 1.5rem;
+	}
+}
+
+@keyframes modalopen{
+  from{ opacity: 0; transform: scale(0);}
+  to {opacity: 1; transform: scale(1);}
+}
+
+
+
